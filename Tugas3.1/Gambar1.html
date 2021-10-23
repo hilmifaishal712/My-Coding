@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gambar 1</title>
+	</head>
+		<body>
+			<h1>Black Gose Bistro | Pizza on-demand</h1>
+				<p>Our 12 "wood-fired pizza are available for delivery. Build your<br>
+				custom pizza and we'll deliver it within in hour.</p>
+					<p>Your Information</p>
+				<form action="/mailinglist.php" method="POST">
+						<!-- Input label nama -->
+						<label for="firstlast">Name:</label>
+						<input type="text" name="fullname" id="firstlast">
+					<br>
+						<!-- Input label alamat -->
+						<label for="fullname">Address</label>
+						<input type="text" name="fullname" id="fullname">
+					<br>
+						<!-- Input label nomor telepon -->
+						<label for="number">Telephone Number</label>
+						<input type="Number" name="telphone number">
+					<br>
+						<!-- Input alamat email -->
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email">
+					<br>
+						<label for="instruction">Delivery Instruction</label>
+					<br>
+					<textarea name="deskripsi" placeholder="No more than 400 character long"></textarea>
+				</form>
+			<h2>Design your dream pizza:</h2>
+				<p>Pizza Specs</p>
+					<br>
+					Crust (Choose One):
+				</p>
+					<!-- Input pilihan menu -->
+					<input type="radio" name="menu" value="Classic White">Classic White
+					<br>
+					<input type="radio" name="menu" value="multigrain">Multigrain
+					<br>
+					<input type="radio" name="menu" value="Cheese-stuffed crust">Cheese-stuffed crust
+					<br>
+					<input type="radio" name="menu" value="Gluten-free">Gluten-free
+					<br>
+				<p>Toppings (Choose as many as you want):</p>
+					<!-- Input pilihan toping -->
+					<input type="radio" name="menu" value="Red sauce">Red sauce
+					<br>
+					<input type="radio" name="menu" value="White sauce">White sauce
+					<br>
+					<input type="radio" name="menu" value="Mozarella cheese">Mozarella cheese
+					<br>
+					<input type="radio" name="menu" value="Pepperoni">Pepperoni
+					<br>
+					<input type="radio" name="menu" value="Mushroom">Mushroom
+					<br>
+					<input type="radio" name="menu" value="Peppers">Peppers
+					<br>
+					<input type="radio" name="menu" value="Anchovies">Anchovies
+					<br>
+				<p>Number<br></p>
+				<form>
+					How manny pizzas:
+					<input type="Number" name="jumlah pesanan" min="1" max="9">
+					<br>
+					<input type="submit" value="Bring me a pizza">
+					<input type="submit" value="Reset">
+				</form>
+		</body>
+</html>
