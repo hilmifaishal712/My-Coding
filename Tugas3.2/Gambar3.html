@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>Gambar 3</title>
+		</head>
+	<body>
+		<table border="1" width="70%">
+			<thead align="center">
+				<tr>
+					<td>Home</td>
+					<td>Generate Link</td>
+					<td>Transaction History</td>
+					<td>Policy</td>
+					<td>Logout</td>
+				</tr>
+			</thead>
+		</table>
+		<br>
+			<form>
+				<!-- Input Foto -->
+				<label for="foto"Foto</label>Upload Picture
+				<input type="file" name="foto" >
+			<br>
+			<br>
+				<!-- Input biodata pengguna -->
+				<label for="name" align="center">Title Here:</label>
+				<input type="text" name="nama barang" placeholder="Nama barang" align="center">
+			<br>
+			<br>
+				<label for="name" align="center">Description:</label>
+				<textarea name="Description" placeholder="Spesifikasi" align="center"></textarea>
+			<br>
+			<br>
+				<label for="number" align="center">Account Number:</label>
+				<input type="text" name="no akun" placeholder="No telepon">
+			<br>
+				<label for="name" align="center">Bank: </label>
+				<input type="text" list="nama bank" name="bank">
+					<datalist id="nama bank">
+						<option value="Mandiri">
+						<option value="BCA">
+						<option value="HSBC">
+						<option value="CIMB NIAGA">
+					</datalist>
+			<br>
+				<label for="name" align="center">Account Holder</label>
+				<input type="text" name="nama akun" placeholder="Name Here" align="center">
+			<br>
+				<label for="number">Transaction :</label>
+				<input type="number" name="angka transaksi" min="1" max="9">
+			<br>
+				<p>*if the transaction is for 3 person. choose 3 from the drop-down list<br>
+					<!-- Input Opsi Pengiriman -->
+					<input type="checkbox" id="opsi pengiriman" name="media pengiriman">
+					<label for="opsi pengiriman">Send To Mobile Phone</label>
+					<br>
+					<input type="checkbox" id="opsi pengiriman 2" name="media pengiriman 2">
+					<label for="opsi pengiriman 2">Send To Email</label>
+				</p>
+			<br>
+				<label for="number">Send to Mobile Phone:</label>
+				<input type="text" name="no telepon" placeholder=" Masukkan no telepon" align="center">
+			<br>
+				<label for="Email">Send to Email:</label>
+				<input type="text" name="akun email" id="email" placeholder="Masukkan alamat email">
+			<br>
+			<br>
+				<input type="submit" value="Generate Link" align="center">
+			</form>				
+	</body>
+</html>
