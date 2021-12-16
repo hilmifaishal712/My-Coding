@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+        function jumlahkan(){
+            let string_bilangan1 = document.getElementById("bilangan1").value;
+            let string_bilangan2 = document.getElementById("bilangan2").value;
+            console.log(string_bilangan1 + string_bilangan2);
+            let bilangan1 = parseInt(string_bilangan1);
+            let bilangan2 = parseInt(string_bilangan2);
+            console.log(bilangan1 + bilangan2);
+            let bilhasil = bilangan1 + bilangan2
+
+            document.getElementById("hasil").innerHTML = bilhasil;
+        }
+        </script>
+    </head>
+    <body>
+        <h2>Menghitung Jumlah Bilangan</h2>
+        <form>
+            Bilangan 1 : <input type="text" id="bilangan1"/>
+            <br>
+            Bilangan 2 : <input type="text" id="bilangan2"/>
+            <br>
+            <input type="button" value="Hitung" onclick="jumlahkan();"/>
+            <br/>
+            Hasil Penjumlahan : <span id="hasil"></span>
+        </form>
+    </body>
+</html>
